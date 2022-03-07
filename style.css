@@ -1,0 +1,40 @@
+/* Resetar o documento CSS é uma boa prática porque anula a formatação padrão dos navegadores, deixando seu site com
+a mesma formatação, não importa o navegador */
+
+/* Usando o elemento raiz para resetar o CSS */
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header nav {
+    list-style-type: symbols('/');
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    background-color: lightgray;
+    font-size: 1.5rem;
+}
+
+h1 {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 1.25rem;
+}
+
+.image1 {
+    /* O uso de porcentagens faz com que esta imagem seja responsiva */
+    width: 50%;
+    height: auto;
+}
+
+article p {
+    font-size: 1.5rem;
+}
