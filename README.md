@@ -8,3 +8,5 @@ Veja o vídeo para ver o que foi feito:
 
 Confira a resposta da atividade aqui:
 [webpage demonstrativa de boas práticas](https://keyhamilton.github.io/boas_praticas/)
+
+Confira os documentos [html](index.html) e [css](style.css) para ver o código com comentários. 
